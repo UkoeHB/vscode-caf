@@ -1,0 +1,34 @@
+{
+  "name": "vscode-caf",
+  "displayName": "CobwebAssetFiles",
+  "description": "Cobweb Asset Format for the bevy_cobweb_ui rust crate.",
+  "version": "0.0.1",
+	"license": "MIT",
+  "homepage": "https://github.com/UkoeHB/vscode-caf",
+  "bugs": {
+      "url": "https://github.com/UkoeHB/vscode-caf/issues"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/UkoeHB/vscode-caf"
+  },
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "caf",
+      "aliases": ["CAF", "caf"],
+      "extensions": [".caf"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "caf",
+      "scopeName": "source.caf",
+      "path": "./syntaxes/caf.tmLanguage.json"
+    }]
+  }
+}
