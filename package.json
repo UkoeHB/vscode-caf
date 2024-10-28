@@ -1,6 +1,6 @@
 {
   "name": "vscode-caf",
-  "displayName": "CobwebAssetFiles",
+  "displayName": "CobwebAssetFormat",
   "description": "Cobweb Asset Format for the bevy_cobweb_ui rust crate.",
   "version": "0.0.1",
 	"license": "MIT",
@@ -13,7 +13,7 @@
       "url": "https://github.com/UkoeHB/vscode-caf"
   },
   "engines": {
-    "vscode": "^1.93.0"
+    "vscode": "^1.88.0"
   },
   "categories": [
     "Programming Languages"
